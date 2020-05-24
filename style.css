@@ -1,0 +1,315 @@
+*{
+    padding:5px;
+    font-family: consolas;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+#homeid{
+padding: 4% 2% 5% 2%;
+margin: 7% 2% 3% 2%;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+transition: 0.3s;
+color: white;
+background-color: black;
+border-radius: 15px;
+}
+#aboutid{
+    padding: 6% 4% 6% 4%;
+    margin: 4% 3% 4% 3%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    display:flex;
+}
+#skillsid{
+        padding: 5% 4% 5% 4%;
+        margin: 3%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+        transition: 0.3s;
+        border-radius: 20px;
+        background-color: green;
+}
+#projectsid{
+    padding: 5% 4% 5% 4%;
+    margin: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+#contactid{
+    padding: 5% 4% 5% 4%;
+    margin: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.3s;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.header{
+    padding:4%;
+    background-color:green;
+    text-align: center;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+li{
+    text-align: center;
+}
+li a{
+    display:inline-block;
+    text-align: center;
+    border-radius: 4px;
+    padding: 6px;
+    color:white; 
+    text-decoration: none;
+    transition: 0.4s;
+}
+li a:hover{
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: white;
+    color:black;
+}
+
+
+
+
+.home_image{
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 10%;
+}
+.home_image img{
+    border:6px solid black;
+    border-radius: 50%;
+    padding: 0;
+    transition: 0.4s;
+}
+.home_image img:hover{
+    padding:1%;
+    border:8px solid #ff1a1a;
+    opacity:0.9;
+}
+.navbar-toggler:hover{
+    transform: rotateZ(180deg);
+    transition: 0.5s;
+}
+
+.about_info{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+}
+.about{
+    display: flex;
+}
+.about_image img{
+    border-radius: 15%;
+    width:15em;
+    border:4px solid black;
+    transition: 0.4s;
+}
+.about_image img:hover{
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity:0.8;
+    border-radius: 1%;
+}
+
+.about_contact h2{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.about_description{
+    margin-left: 1%;
+}
+.about_description h1{
+    border-radius: 0.3em;
+    background-image: linear-gradient(to right, blue, white)
+}
+.about_description h3{
+    font-family: consolas;
+    font-size: 1.7em;
+}
+
+.asas{
+    text-align: center;
+}
+.container h2{
+    text-align: center;
+}
+
+
+
+
+.our-team-main{
+	width:100%;
+	height:auto;
+	border-bottom:5px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+.our-team-main img{
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 90px;
+}
+.our-team-main h3{
+	font-size:20px;
+    font-weight:700;
+    color: red;
+}
+.our-team-main p{
+	margin-bottom:0;
+}
+.team-back{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 17px 0 17px;
+	text-align:left;
+	background:#fff;
+}
+.team-back span{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 80%;
+}
+.team-front{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+.our-team-main:hover .team-front{
+	bottom:-200px;
+	transition: all 0.6s ease;
+}
+.our-team-main:hover{
+	border-color:#777;
+	transition:0.5s;
+}
+
+
+.card-deck{
+    display:flex;
+}
+.card-deck div:hover{
+    box-shadow: 0 4px 4px 0 rgba(1, 1, 1, 0.705);
+}
+.card body{
+    box-shadow: 0 4px 4px 0 rgba(1, 1, 1, 0.705);
+}
+.card-body a{
+    transition: 0.4s;
+    padding: 2%;
+}
+.card-body a:hover{
+    border: 2px solid black;
+    padding: 3% 8%;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+
+#projectsid h1{
+    text-align: center;
+}
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+}
+
+
+
+.contacter{
+    display:flex;
+}
+.contact_form{
+ width:50%;
+ text-align: center;
+}
+#xx{
+    width: 100%;
+}
+.contact_details{
+    width: 50%;
+}
+.contact_form1 input,.contact_form1 textarea{
+    margin-bottom: 3%;
+}
+
+@media only screen and (max-width: 850px) {
+ 
+
+.contacter{
+    display:block;
+}
+.contact_form{
+    width:100%;
+}
+.contact_details{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+.home_description h2{
+    text-align: center;
+}
+.about_description h3{
+    text-align: center;
+}
+.contact_details a{
+    padding-left: 6%;
+
+}
+#1{
+    display: block;
+}
+.contact_form button{
+    width:100%;
+}
+.about{
+    display: block;
+}
+.about_image{
+    text-align: center;
+}
+.about_contact{
+    text-align: center;
+}
+.card-deck{
+    display:block;
+}
+
+li a{
+    display: block;
+}
+form input{
+    display: block;
+}
+.contact_details h5{
+    text-align: center;
+}
+.about_info{
+    margin-bottom: 4%;
+}
+}
+
+
+
+
+
