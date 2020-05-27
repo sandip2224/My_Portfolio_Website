@@ -1,16 +1,13 @@
-<?php
-
-if(isset($_POST['submit'])){
+    <?php
 
     $name=$_POST['name'];
-    $mailFrom=$_POST['mail'];
+    $mailFrom=$_POST['email'];
     $message=$_POST['message'];
     
     $mailTo="sandipan2224@gmail.com";
-    $headers="FROM: ".$mailFrom;
-    $txt="You have received an email from ".$name.".\n\n".$message;
-    mail($mailTo, $subject, $txt, $headers);
-    header("Location: index.php?mailsend");
-}
-
+    $headers="From: ".$mailFrom."\n\n";
+    $txt="Message: ".$message;
+    
+    mail($mailTo, $txt, $headers);
+    header("Location: index.html");
 ?>
