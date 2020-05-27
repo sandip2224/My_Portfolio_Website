@@ -1,13 +1,11 @@
-    <?php
-
-    $name=$_POST['name'];
-    $mailFrom=$_POST['email'];
-    $message=$_POST['message'];
+<?php 
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $formcontent="From: $name \n Message: $message";
+    $recipient = "sandipan2224@gmail.com";
+    $subject = "Contact Form";
+    $mailheader = "From: $email \r\n";
+    mail($recipient, $subject, $formcontent, $mailheader);
     
-    $mailTo="sandipan2224@gmail.com";
-    $headers="From: ".$mailFrom."\n\n";
-    $txt="Message: ".$message;
-    
-    mail($mailTo, $txt, $headers);
-    header("Location: index.html");
 ?>
