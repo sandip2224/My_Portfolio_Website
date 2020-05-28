@@ -5,16 +5,20 @@
     box-sizing: border-box;
 overflow: visible;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 #homeid{
 padding: 4% 2% 5% 2%;
 margin: 7% 2% 3% 2%;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 transition: 0.3s;
 color: white;
-background-color: black;
 border-radius: 15px;
-}
+background-image: url("https://thumbs.gfycat.com/BriefIgnorantBlackbuck-size_restricted.gif");
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
 #aboutid{
     padding: 6% 4% 6% 4%;
     margin: 4% 3% 4% 3%;
@@ -30,7 +34,7 @@ border-radius: 15px;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
         transition: 0.3s;
         border-radius: 20px;
-        background-image: linear-gradient(#4d4dff,#b3b3ff);
+        background-image: linear-gradient(to top,#00004d,#0000ff);
 }
 #projectsid{
     padding: 5% 4% 5% 4%;
@@ -43,9 +47,12 @@ border-radius: 15px;
     margin: 3%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     transition: 0.3s;
-    background-color: black;
     color: white;
     border-radius: 20px;
+    background-image: url("https://thumbs.gfycat.com/ThreadbareSourAfricangroundhornbill-size_restricted.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header{
@@ -98,8 +105,7 @@ li a:hover{
 }
 
 .about_info{
-    background-color: green;
-    color: white;
+    background-image: linear-gradient(to top,#004d00,#00b300);
     border-radius: 30px;
 }
 .about{
@@ -113,28 +119,49 @@ li a:hover{
 }
 .about_image img:hover{
     box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    opacity:0.8;
-    border-radius: 1%;
+    
 }
+
 
 .about_contact h2{
     font-size: 1.2em;
+    color: white;
     font-weight: bold;
 }
 .about_description{
-    margin-left: 1%;
+    margin-left: 2%;
+}
+.namer{
+    text-align: center;
+}
+.namer h1{
+    font-weight: 900;
+    color:yellow;
+    font-size: 1.5em;
+    font-family: serif;
 }
 .about_description h1{
     border-radius: 0.3em;
-    background-image: linear-gradient(to right, #99b3ff, white)
+    background-color: #800000;
+    color: yellow;
+    font-weight: 900;
+    padding-left: 2%;
+    font-family: serif;
 }
 .about_description h3{
     font-family: consolas;
     font-size: 1.7em;
 }
 
-.asas{
+.skiller{
     text-align: center;
+    
+}
+.skiller h1{
+    color: white;
+    font-weight: 900;
+    font-size: 3em;
+    font-family: serif;
 }
 .container h2{
     text-align: center;
@@ -202,64 +229,126 @@ li a:hover{
 }
 
 
+.probono{
+    color: red;
+    font-weight: 900;
+    font-family: serif;
+    font-size: 3em;
+    text-align: center;
+}
 .card-deck{
     display:flex;
+}
+.card-deck div{
+    transition: 0.3s;
 }
 .card-deck div:hover{
     box-shadow: 0 4px 4px 0 rgba(1, 1, 1, 0.705);
 }
-.card body{
-    box-shadow: 0 4px 4px 0 rgba(1, 1, 1, 0.705);
-}
+
 .card-body a{
+    border: 2px solid black;
     transition: 0.4s;
+    font-weight: 700;
     padding: 2%;
 }
 .card-body a:hover{
-    border: 2px solid black;
     padding: 3% 8%;
     border-radius: 7px;
     font-weight: bold;
 }
 
-
-#projectsid h1{
-    text-align: center;
+.a1{
+    background-color: #ffff33;
+}
+.a1 h2{
+    font-weight: 900;
+    font-family: serif;
+}
+.a1 p{
+    color: blue;
+}
+.b1{
+    background-color: #df9fbf;
+}
+.b1 h2{
+    color: blue;
+    font-weight: 900;
+    font-family: serif;
+}
+.b1 p{
+    
+}
+.c1{
+    background-color: #006600;
+}
+.c1 h2{
+    color: yellow;
+    font-weight: 900;
+    font-family: serif;
+}
+.c1 p{
+    color: white;
+}
+.d1{
+    background-color:  #9999ff;
+}
+.d1 h2{
+    color: #800000;
+    font-weight: 900;
+    font-family: serif;
+}
+.d1 p{
+    color: white;
 }
 
 
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 1000;
-}
-
-
-
-.contacter{
+#contactid{
     display:flex;
 }
 .contact_form{
- width:50%;
- text-align: center;
+    margin-right: 2%;
 }
-#xx{
+.contact_form h1,h3{
+    font-family: serif;
+    font-weight: 900;
+    font-size: 2.5em;
+    text-align: center;
+}
+.contact_form h3{
+    font-family: consolas;
+}
+.contact_details h1,h3{
+    font-family: serif;
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.contact_form button{
     width: 100%;
+}
+.contact_form{
+    width: 50%;
 }
 .contact_details{
     width: 50%;
 }
-.contact_form1 input,.contact_form1 textarea{
+.contact_form input{
     margin-bottom: 3%;
 }
+.contact_form textarea{
+    margin-bottom: 2%;
+}
+
 
 @media only screen and (max-width: 850px) {
  
 
-.contacter{
-    display:block;
+#contactid{
+    display: block;
 }
 .contact_form{
-    width:100%;
+    width: 100%;
 }
 .contact_details{
     width: 100%;
@@ -277,10 +366,9 @@ h1{
     padding-left: 6%;
 
 }
-#1{
-    display: block;
-}
-.contact_form button{
+
+
+.contact_form1 button{
     width:100%;
 }
 .about{
