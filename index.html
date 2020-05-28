@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/8073033fc2.js" crossorigin="anonymous"></script>
@@ -18,7 +18,8 @@
 </head>
 
 <body>
-  
+    
+
     <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -26,14 +27,14 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
 
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">S/Das</a>
+            <a class="navbar-brand" target="_blank" href="https://sandip2224.github.io/Resume_164">S/Das</a>
         </div>
         <ul class="navbar-nav">
-                <li class="navbar-item"><a href="#homeid">Home</a></li>
-                <li class="navbar-item"><a href="#aboutid">About</a></li>
-                <li class="navbar-item"><a href="#skillsid">Skills</a></li>
-                <li class="navbar-item"><a href="#projectsid">Projects</a></li>
-                <li class="navbar-item"><a href="#contactid">Contact</a></li>
+                <li data-toggle="collapse" data-target=".navbar-collapse" class="navbar-item"><a href="#homeid">Home</a></li>
+                <li data-toggle="collapse" data-target=".navbar-collapse" class="navbar-item"><a href="#aboutid">About</a></li>
+                <li data-toggle="collapse" data-target=".navbar-collapse" class="navbar-item"><a href="#skillsid">Skills</a></li>
+                <li data-toggle="collapse" data-target=".navbar-collapse" class="navbar-item"><a href="#projectsid">Projects</a></li>
+                <li data-toggle="collapse" data-target=".navbar-collapse" class="navbar-item"><a href="#contactid">Contact</a></li>
         </ul>
         <form class="form-inline ml-auto my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -43,16 +44,16 @@
     </nav>
 
     <!--SECTION-1-->
-
+    <button id="back-to-top-btn"><i class="fab fa-angle-double-up"></i></button>
 
     <section id="homeid">
         <header class="header wow animate__animated animate__bounceInDown">
             <h2>Portfolio Webpage</h2>
         </header>
-      <div class="home_image wow animate__animated animate__rollIn" data-wow-delay="0.4s"> 
+      <div class="home_image wow animate__animated animate__bounceInUp" data-wow-delay="0.2s"> 
          <img src="https://media-exp1.licdn.com/dms/image/C5103AQHEjRjDaa0omA/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=h6bGEJIgX2OFqjqQ45ve23s8XD3CbQ_0JTayURP3fOc">
      </div> 
-     <div class="home_description wow animate__animated animate__bounceInUp" data-wow-delay="0.9s"  data-wow-duration="2s">
+     <div class="home_description">
          <h2>Hello, I'm Sandipan. I have experience in working with HTML5, CSS3, JavaScript as well as Bootstrap. Working on web-based projects concerning frontend design and HTML parsing is my forte. I'm also a web scraper and love to automate web-based projects.</h2>
     </div>
 
@@ -63,18 +64,20 @@
 
     <section id="aboutid">
         <div class='about'>
-        <div class='about_info'>
-            <div class='about_image wow animate__animated animate__slideInLeft'>
+        <div class='about_info wow animate__animated animate__bounceInLeft'>
+            <div class='about_image'>
                 <img src="https://media-exp1.licdn.com/dms/image/C5103AQHEjRjDaa0omA/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=h6bGEJIgX2OFqjqQ45ve23s8XD3CbQ_0JTayURP3fOc" >
             </div>
-            <div class="about_contact wow animate__animated animate__slideInLeft">
-                <h2> Name: Sandipan Das</h2>
-                <h2> Profile: Front End Designer</h2>
-                <h2> Email: sandipan2224@gmail.com</h2>
-                <h2> Contact: +(91) 89187-77740</h2>
+            <div class="about_contact">
+                <div class="namer">
+                <h1> SANDIPAN DAS</h1>
+                </div>
+                <h2> PROFILE: Front End Designer</h2>
+                <h2> EMAIL: sandipan2224@gmail.com</h2>
+                <h2> CONTACT: +(91) 89187-77740</h2>
             </div>
         </div>
-        <div class="about_description wow animate__animated animate__slideInRight">
+        <div class="about_description wow animate__animated animate__bounceInRight">
             <h1>ABOUT ME</h1>
             <h3>I found my passion in web Development and implemented HTML5, CSS3 and JavaScript plus a generous chunk of Bootstrap 4. 
                 My certifications on Coursera and Udemy are proof of same and I have implemented my skills in mini-projects which are listed below. 
@@ -90,11 +93,13 @@
 
     <section id="skillsid">
 
-        <h1 class="asas wow animate__animated animate__slideInLeft">SKILLS</h1>
+        <div class="skiller">
+        <h1 class="wow animate__animated animate__bounceInLeft">SKILLS</h1>
+        </div>
         <div class="container">
             <div class="row">
             <!--team-1-->
-            <div class="col-md-4 wow animate__animated animate__bounceInUp" data-wow-duration="0.95s" >
+            <div class="col-md-4 wow animate__animated animate__bounceInUp" data-wow-duration="0.95s" data-wow-delay="0.2s">
                 <div class="our-team-main">
                     <div class="team-front">
                         <i class="fab fa-4x fa-html5"></i>
@@ -103,7 +108,7 @@
                     <div class="team-back">
                         <span>
                     I'm proficient in rendering webpages using HTML-5. It is a markup language used by browser to manipulate text, images and other content. 
-                    The first ever version was HTML 1.0 but the first standard version was HTML 2.0.
+                    The first standard version was HTML 2.0.
                         </span>
                     </div>
                 </div>
@@ -111,7 +116,7 @@
             <!--team-1-->
             
             <!--team-2-->
-            <div class="col-md-4 wow animate__animated animate__bounceInUp" data-wow-duration="0.95s" data-wow-delay="0.1s">
+            <div class="col-md-4 wow animate__animated animate__bounceInUp" data-wow-duration="0.95s" data-wow-delay="0.3s">
                 <div class="our-team-main">
                      <div class="team-front">
                         <i class="fab fa-4x fa-css3"></i>
@@ -119,7 +124,7 @@
                     </div>
                     <div class="team-back">
                         <span>
-                        I excel in redesigning HTML elements in a consumer-satiable fashion. Cascading Style Sheets is a simply designed language intended to simplify the process of making web pages presentable. 
+                        I excel in redesigning HTML elements in a consumer-satiable fashion. CSS is a simply designed language intended to simplify the process of making web pages presentable. 
                         It allows you to apply styles to web pages.
                         </span>
                     </div>
@@ -128,7 +133,7 @@
             <!--team-2-->
             
             <!--team-3-->
-            <div class="col-md-4 wow animate__animated animate__bounceInUp"  data-wow-duration="0.95s" data-wow-delay="0.2s">
+            <div class="col-md-4 wow animate__animated animate__bounceInUp"  data-wow-duration="0.95s" data-wow-delay="0.4s">
                 <div class="our-team-main">
                     <div class="team-front">
                         <i class="fab fa-4x fa-js-square"></i>
@@ -137,7 +142,7 @@
                     </div>
                     <div class="team-back">
                         <span>
-                        I love DOM manipulation using JavaScript. It was developed by Brendan Eich in 1995, which appeared in Netscape, a popular browser of that time. 
+                        I love DOM manipulation using JavaScript. It was developed by Brendan Eich in 1995. 
                         The language was initially called LiveScript and was later renamed JavaScript.
                         </span>
                     </div>
@@ -146,7 +151,7 @@
             <!--team-3-->
             
             <!--team-4-->
-            <div class="col-md-4 wow animate__animated animate__bounceInUp"  data-wow-duration="0.95s" data-wow-delay="0.3s">
+            <div class="col-md-4 wow animate__animated animate__bounceInUp"  data-wow-duration="0.95s" data-wow-delay="0.5s">
                 <div class="our-team-main">
                     <div class="team-front">
                         <i class="fab fa-4x fa-bootstrap"></i>
@@ -154,8 +159,8 @@
                     </div>
                     <div class="team-back">
                         <span>
-                       I'm proficient in using Bootstrap and it's attributes. It is an open-source tool for creating responsive webpages.
-                       It is the most popular JavaScript framework for developing responsive, mobile-first web sites. 
+                       I'm proficient in using Bootstrap and it's attributes. It is an open-source tool for creating responsive webpages
+                       and the most popular JavaScript framework for developing responsive web sites. 
                         </span>
                     </div>
                 </div>
@@ -163,7 +168,7 @@
             <!--team-4-->
             
             <!--team-5-->
-            <div class="col-md-4 wow animate__animated animate__bounceInUp"   data-wow-duration="0.95s" data-wow-delay="0.4s">
+            <div class="col-md-4 wow animate__animated animate__bounceInUp" data-wow-duration="0.95s" data-wow-delay="0.6s">
                 <div class="our-team-main">
                     <div class="team-front">
                         <i class="fab fa-4x fa-python"></i>
@@ -171,8 +176,8 @@
                     </div>
                     <div class="team-back">
                         <span>
-                       I'm proficient in Python programming and possess the skills to scrape both static and dynamic webpages. 
-                       Python is a widely used high level programming language and was created by Guido van Rossum in 1991.
+                       I'm proficient in Python programming and possess the skills to scrape webpages. 
+                       Python is a widely used high level language and was created by Guido van Rossum.
                         </span>
                     </div>
                 </div>
@@ -180,7 +185,7 @@
             <!--team-5-->
             
             <!--team-6-->
-            <div class="col-md-4 wow animate__animated animate__bounceInUp"  data-wow-duration="0.95s" data-wow-delay="0.5s">
+            <div class="col-md-4 wow animate__animated animate__bounceInUp"  data-wow-duration="0.95s" data-wow-delay="0.7s">
                 <div class="our-team-main">
                     <div class="team-front">
                         <i class="fab fa-4x fa-github"></i>
@@ -189,7 +194,7 @@
                     <div class="team-back">
                         <span>
                         I'm proficient in using GitHub as well as BitBucket. I regularly update my GitHub repositories with the code to my personal projects. 
-                        You will find the requisite links to the desired projects in my GitHub account. 
+                        You will find the requisite links in my GitHub account. 
                         </span>
                     </div>
                 </div>
@@ -205,41 +210,41 @@
     <section id="projectsid">
 
         <div class="container1">
-            <h1 class='wow animate__animated animate__slideInLeft'>PROJECTS</h1>
+            <h1 class='probono wow animate__animated animate__slideInLeft'>PROJECTS</h1>
             <div class="card-deck">
-                <div class="card bg-primary wow animate__animated animate__bounceInUp" data-wow-duration="0.9s">
-                    <div class="card-body text-center">
-                        <h2>Resume Webpage</h2>
+                <div class="card wow animate__animated animate__bounceInUp" data-wow-duration="0.9s">
+                    <div class="a1 card-body text-center">
+                        <h2>RESUME WEBPAGE</h2>
                         <p class="card-text">A minimal bootstrap based resume webpage which showcases my personal academic credentials including
                             my skills, certifications, mini-projects, educational background, demonstrated work history as well as my personal projects. 
                         </p>
                         <a href="https://sandip2224.github.io/Resume_164/" target="_blank" class="btn btn-danger">See Project</a> 
                     </div>
                 </div>
-              <div class="card bg-warning wow animate__animated animate__bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.1s">
-                <div class="card-body text-center">
-                    <h2>Web Scraper bot for Price Inspection</h2>
+              <div class="card wow animate__animated animate__bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.1s">
+                <div class="b1 card-body text-center">
+                    <h2>STATIC WEB SCRAPER BOT</h2>
                     <p class="card-text">Extracts product name and price of any user-defined product from Flipkart and sends automated email if price falls below certain range.
                     </p>
                     <a href="https://github.com/sandip2224/Price_inspection_bot-BeautifulSoup-" target="_blank" class="btn btn-success">See Project</a> 
                 </div>
               </div>
 
-              <div class="card bg-success wow animate__animated animate__bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.2s">
-                <div class="card-body text-center">
-                  <h2>Automated Web Scraping using Selenium</h2>
+              <div class="card wow animate__animated animate__bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.2s">
+                <div class="c1 card-body text-center">
+                  <h2>AUTOMATED DYNAMIC WEB SCRAPING</h2>
                     <p class="card-text">Web Scraping module sends hourly updated COVID-19 statistics on pre-defined email addresses. 
                         It reduces hassle of checking into the official website everytime someone wants the updated information.
                     </p>
                     <a href="https://github.com/sandip2224/Web_Scraper_COVID-19-using-SELENIUM" target="_blank" class="btn btn-primary">See Project</a> 
                 </div>
               </div> 
-              <div class="card bg-danger wow animate__animated animate__bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.3s">
-                <div class="card-body text-center">
-                    <h2>Page Rank Algorithm using D3.JS</h2>
+              <div class="card wow animate__animated animate__bounceInUp" data-wow-duration="0.9s" data-wow-delay="0.3s">
+                <div class="d1 card-body text-center">
+                    <h2>PAGE RANK ALGORITHM</h2>
                     <p class="card-text">A BeautifulSoup based web crawler extracts links from an URL and stores it in .sqlite format which is subsequently visualized using d3.js plus HTML and CSS.
                     </p>
-                    <a href="https://github.com/sandip2224/Data-visualization-using-d3js" target="_blank" class="btn btn-warning">See Project</a> 
+                    <a href="https://github.com/sandip2224/Data-visualization-using-d3js" target="_blank" class="btn btn-secondary">See Project</a> 
                 </div>
               </div>  
             </div>
@@ -251,40 +256,41 @@
 
     <section id='contactid'>
 
-        <div class="contacter">
         <div class="contact_form">
             <h1>SAY HELLO!!!</h1>
             <h3>I'm always here for you</h3>
-            <form class="contact_form1" method='POST' action="contactform.php">
-                <input name="name" type="text" class="form-control wow animate__animated animate__bounceInUp" width=70 placeholder="Your Name........" required>
-                <input name="email" type="email" class="form-control wow animate__animated animate__bounceInUp" data-wow-delay="0.2s" placeholder="Your Email........" required>
-                <textarea name="message" class="form-control wow animate__animated animate__bounceInUp" data-wow-delay="0.4s" placeholder="Your Message........" required></textarea>
+            <form class="contact_form1" method='POST' action="">
+                <input name="name" type="text" class="form-control wow animate__animated animate__bounceInLeft" width=70 placeholder="Your Name........" required>
+                <input name="email" type="email" class="form-control wow animate__animated animate__bounceInLeft" data-wow-delay="0.15s" placeholder="Your Email........" required>
+                <textarea name="message" class="form-control wow animate__animated animate__bounceInLeft" data-wow-delay="0.30s" placeholder="Your Message........" required></textarea>
             </form>
-            <button  type="submit" id='xx' class="btn btn-primary wow animate__animated animate__bounceInUp" data-wow-delay="0.6s">Send Message</button>
+            <button  type="submit" name='submit' class="btn btn-primary wow animate__animated animate__bounceInLeft" data-wow-delay="0.45s">Send Message</button>
         </div>
         <div class="contact_details">
             <h1>GET IN TOUCH!!</h1>
-            <h5>Earnest web designer, web scraping enthusiast and competitive coder. Find me here.</h5>
+            <h5 class="finally">Earnest web designer, web scraping enthusiast and competitive coder. Find me here.</h5>
             <h5><i class="fa fa-map-marker-alt"></i>Siliguri, West Bengal</h5>
             <h5><i class="fa fa-phone-alt"></i>+(91)89187-77740</h5>
             <h5><i class="fa fa-envelope"></i>sandipan2224@gmail.com</h5>
             <div class="iconic">
-            <a href="https://www.instagram.com/sandipan0164/" target="_blank"><i class="fab fa-3x fa-instagram wow animate__animated animate__bounceIn" data-wow-delay="0.7s"></i></a>
-            <a href="https://github.com/sandip2224" target="_blank"><i class="fab fa-3x fa-github wow animate__animated animate__bounceIn" data-wow-delay="0.9s"></i></a>
-            <a href="https://in.linkedin.com/in/sandipan0164" target="_blank"><i class="fab fa-3x fa-linkedin wow animate__animated animate__bounceIn" data-wow-delay="1.1s"></i></a>
+            <a href="https://www.instagram.com/sandipan0164/" target="_blank"><i class="fab fa-3x fa-instagram wow animate__animated animate__bounceIn" data-wow-delay="0.6s"></i></a>
+            <a href="https://github.com/sandip2224" target="_blank"><i class="fab fa-3x fa-github wow animate__animated animate__bounceIn" data-wow-delay="0.8s"></i></a>
+            <a href="https://in.linkedin.com/in/sandipan0164" target="_blank"><i class="fab fa-3x fa-linkedin wow animate__animated animate__bounceIn" data-wow-delay="1.0s"></i></a>
             </div>
         </div>
-        </div>
+
 
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
+    
+  
 
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
-
+    
 
 </body>
 </html>
