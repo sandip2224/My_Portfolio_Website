@@ -9,4 +9,10 @@
 </p>
 <h2 align="center">Webpage Preview</h2>
 <img src="img/1.PNG"/>
+<hr>
+<p align="center">
+    <a href="https://github.com/sandip2224/My_Portfolio_Website/issues/new/choose">Report Bug&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    <a href="https://github.com/sandip2224/My_Portfolio_Website/issues/new/choose">Request Feature</a>
+</p>
+<h2 align="center">Live website link:<a href="https://minimalninja.herokuapp.com">&nbsp;Click here</a></h2>
 
