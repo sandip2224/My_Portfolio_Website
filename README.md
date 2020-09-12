@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/github/repo-size/sandip2224/My_Portfolio_Website"/>
 </p>
 <h2 align="center">Webpage Preview</h2>
-<img src="img/1.PNG"/>
+<p align="center"><img src="img/preview.gif"/></p>
 <hr>
 <p align="center">
     <a href="https://github.com/sandip2224/My_Portfolio_Website/issues/new/choose">Report Bug&nbsp;&nbsp;&nbsp;&nbsp;</a>
