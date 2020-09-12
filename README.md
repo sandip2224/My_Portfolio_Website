@@ -14,7 +14,7 @@
     <a href="https://github.com/sandip2224/My_Portfolio_Website/issues/new/choose">Report Bug&nbsp;&nbsp;&nbsp;&nbsp;</a>
     <a href="https://github.com/sandip2224/My_Portfolio_Website/issues/new/choose">Request Feature</a>
 </p>
-<h2 align="center">Live website link:<a href="https://minimalninja.herokuapp.com">&nbsp;Click here</a></h2>
+<h2 align="center">Live website link:<a href="https://sandip2224.github.io/My_Portfolio_Website/" target="_blank">&nbsp;Click here</a></h2>
 
 <h2 align="center"><strong>:point_right:𝚁𝚎𝚚𝚞𝚒𝚛𝚎𝚖𝚎𝚗𝚝𝚜</strong></h2>
 
