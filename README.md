@@ -31,7 +31,7 @@
 <h2 align="center">Installation</h2>
 <h2><strong>Clone</strong></p>
 
-- Clone this repo to your local machine using `https://github.com/sandip2224/My_Portfolio_Website.git`
+<p>Clone this repo to your local machine using: <a href="https://github.com/sandip2224/My_Portfolio_Website.git">https://github.com/sandip2224/My_Portfolio_Website.git</a></p>
 <h2 align="center"><strong>CSS Source Files</strong></h2>
 
 - *style.css*
