@@ -29,9 +29,9 @@
 <p>This website is handcrafted on HTML, CSS, JAvascript, jQuery and Bootstrap. It features a minimal homepage, an "About Me" section, my skillset, my mini-projects, awards plus added links to my social media sites. I've also included a non-functional 'Contact Me' near the end. The entire website is garnished by a smooth scroll effect which adds to user-comfort and interactivity.</p>
 
 <h2 align="center">Installation</h2>
-<h2><strong>Clone</strong></p>
+<h2><strong>Clone</strong></h2>
 
-<p>Clone this repo using: <a href="https://github.com/sandip2224/My_Portfolio_Website.git">https://github.com/sandip2224/My_Portfolio_Website.git</a></p>
+<p>Clone this repo to your local machine using: <a href="https://github.com/sandip2224/My_Portfolio_Website.git">https://github.com/sandip2224/My_Portfolio_Website.git</a></p>
 
 <h2 align="center"><strong>CSS Source Files</strong></h2>
 
