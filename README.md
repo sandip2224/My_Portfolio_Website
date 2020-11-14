@@ -1,7 +1,7 @@
 <h2 align="center">My Portfolio Website✅</h2>
 
 <p align="center">
-   <img src="img/doc_logo.png" alt="Logo" height=100 weight=100/>
+   <img src="img/map.png" alt="Logo" height=80 weight=80/>
 </p>
 
 <p align='center'> 
