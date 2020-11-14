@@ -58,7 +58,7 @@ Here's why it's so awesome:
 - ***The website is fully responsive and scales down perfectly on smaller viewports.*** ✅  
 - ***The website clearly showcases my achievements as well as my personal projects without ambiguity.*** 🖖  
 
-> **I also encourage you to suggest changes by forking this repository and creating a pull request or opening an issue.**  
+> I also encourage you to suggest changes by forking this repository and creating a pull request or opening an issue.  
 
 <!-- Preview -->
 <h2 align="center">Preview</h2>
