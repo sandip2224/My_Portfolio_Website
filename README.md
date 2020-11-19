@@ -1,4 +1,4 @@
-<h2 align="center">My Portfolio Website✅</h2>
+<h2 align="center">My Portfolio Website</h2>
 
 <p align="center">
    <img src="img/map.png" alt="Logo" height=80 weight=80/>
